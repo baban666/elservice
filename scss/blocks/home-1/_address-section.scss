@@ -1,0 +1,93 @@
+/*------------------------------------------------*/
+/*	ADDRESS
+/*------------------------------------------------*/
+
+.el-tabs {
+
+  .nav-tabs{
+    height: 65px;
+  }
+
+
+  .nav-item {
+
+    min-width: 25%;
+    max-width: 25%;
+
+  }
+
+
+  .nav-item {
+    border: 1px solid #194768;
+
+    &:nth-child(even) {
+      border-top: 1px solid #194768;
+      border-bottom: 1px solid #194768;
+      border-left: none;
+      border-right: none;
+    }
+    &:nth-last-child(1) {
+      border-top: 1px solid #194768;
+      border-bottom: 1px solid #194768;
+      border-left: none;
+      border-right: 1px solid #194768;
+    }
+
+    &:hover {
+      background: #194768;
+      border-radius: unset;
+      border: none;
+      cursor: pointer;
+    }
+
+  }
+
+  .nav-link {
+    border: none;
+    font-size: 16px;
+    color: rgba(25, 70, 103, 0.502);
+    font-weight: bold;
+    line-height: 1.5;
+    height: 50px;
+    &:hover {
+      border: none;
+      border-radius: unset;
+      background: #194768;
+      font-size: 16px;
+      color: rgb(255, 255, 255);
+      font-weight: bold;
+      line-height: 1.5;
+    }
+  }
+  .nav-item.active {
+    border-radius: unset;
+    background: #194768;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.5;
+    position: relative;
+    .nav-link {
+      color: rgb(255, 255, 255);
+    }
+    &:after {
+      content: "";
+      display: block;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 0 10px 10px 10px;
+      border-color: transparent transparent #ffffff transparent;
+      position: absolute;
+      left: 50%;
+      bottom: -1px;
+    }
+
+    &:hover {
+      border-radius: unset;
+      border: 1px solid #194768;
+      background: #194768;
+    }
+  }
+
+}

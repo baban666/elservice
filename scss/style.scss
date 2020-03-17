@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+@import "reset";
+@import "variables";
+@import "fonts";
+@import "mixins";
+@import "core";
+@import "blocks/bootstrap/bootstrap";
+@import "blocks/headers/bsnav";
+
+/*------------------------------------------------*/
+/*	SINGLE POST
+/*------------------------------------------------*/
+
+@import "blocks/single/single.scss";
+@import "blocks/single/single-post-full";
+
+/*------------------------------------------------*/
+/*	BLOG SIDEBAR
+/*------------------------------------------------*/
+
+@import "blocks/sidebar/sidebar.scss";
+
+/*------------------------------------------------*/
+/*	BLOG LIST
+/*------------------------------------------------*/
+
+@import "blocks/blog-2-columns/blog-2-columns";
+
+/*------------------------------------------------*/
+/*	PAGINATION
+/*------------------------------------------------*/
+
+@import "blocks/pagination";
+
+/*------------------------------------------------*/
+/*	COMMENTS
+/*------------------------------------------------*/
+
+@import "blocks/comments";
+
+/*------------------------------------------------*/
+/*	TOP NAV
+/*------------------------------------------------*/
+
+@import "blocks/top-navs/top-nav";
+
+
+/*------------------------------------------------*/
+/*	FOOTER
+/*------------------------------------------------*/
+
+@import "blocks/footer/footer";
+@import "blocks/footer/bottom-line";
+
+/*------------------------------------------------*/
+/*	SINGLE POST
+/*------------------------------------------------*/
+
+@import "blocks/home-1/about-section";
+@import "blocks/home-1/address-section";
+@import "blocks/home-1/advantages-section";
+@import "blocks/home-1/call-us-section";
+@import "blocks/home-1/contact-section";
+@import "blocks/home-1/estimation-section";
+@import "blocks/home-1/faq-section";
+@import "blocks/home-1/get-service-section";
+@import "blocks/home-1/header-main";
+@import "blocks/home-1/header-section";
+@import "blocks/home-1/news-section";
+@import "blocks/home-1/services-section";
+@import "blocks/home-1/testimonials-section";
+

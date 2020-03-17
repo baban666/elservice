@@ -1,0 +1,44 @@
+/*------------------------------------------------*/
+/*	GET SERVICE SECTION
+/*------------------------------------------------*/
+
+.get-service{
+  
+  .get-service-mail{
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  .form-control{
+    background: transparent;
+    border-radius: unset;
+    border-bottom: 1px solid white;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    padding-left: 0;
+
+    &::placeholder{
+      margin-left: 0;
+      font-size: 14px;
+      color: rgba(254, 254, 254, 0.702);
+      line-height: 1.286;
+      text-align: left;
+    }
+
+
+  }
+  .get-service-title{
+    margin-bottom: 30px;
+  }
+
+  .get-service-desc{
+    color: white;
+    margin-bottom: 30px;
+  }
+
+  .btn-get-service{
+    color: white;
+    border-bottom: 1px solid white;
+    border-radius: unset;
+  }
+}

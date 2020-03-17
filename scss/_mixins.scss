@@ -1,0 +1,92 @@
+@mixin min-max($min-width, $max-width, $padding) {
+  min-width: $min-width;
+  max-width: $max-width;
+  padding: 0 $padding;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+
+@mixin title-right($title-color: rgb(5, 13, 19), $after-color: #448ef6, $before-color: #fff) {
+  font-size: 27px;
+  color: $title-color;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 0.518;
+  padding-top: 100px;
+  padding-bottom: 90px;
+  position: relative;
+  z-index: 1;
+
+  &::after{
+    content: "";
+    width: 215px;
+    height: 85px;
+    border: solid 1px $after-color;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 32%;
+    z-index: -2;
+  }
+  &::before{
+    content: "";
+    width: 215px;
+    height: 30%;
+    border-right: solid 90px $before-color;
+    display: block;
+    position: absolute;
+    left: 32%;
+    top: 38%;
+    z-index: -1;
+
+  }
+}
+
+
+@mixin title-left($title-color: rgb(5, 13, 19), $after-color: #448ef6, $before-color: #fff) {
+  font-size: 27px;
+  color: $title-color;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 0.518;
+  padding-top: 100px;
+  padding-bottom: 90px;
+  position: relative;
+  z-index: 1;
+
+  &::after {
+    content: "";
+    width: 215px;
+    height: 85px;
+    border: solid 1px $after-color;
+    display: block;
+    position: absolute;
+    right: 50%;
+    top: 32%;
+    z-index: -2;
+  }
+  &::before {
+    content: "";
+    width: 215px;
+    height: 30%;
+    border-right: solid 90px $before-color;
+    display: block;
+    position: absolute;
+    left: 32%;
+    top: 38%;
+    z-index: -1;
+
+  }
+}
+
+@mixin btn-elservice($background-color, $box-shadow) {
+  border-radius: 0;
+  background-color: $background-color;
+  box-shadow: 0 12px 35px 0 $box-shadow;
+  text-transform: uppercase;
+  i{
+    padding-left: 10px;
+  }
+
+}

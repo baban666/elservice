@@ -1,0 +1,23 @@
+/*------------------------------------------------*/
+/*	PAGINATION
+/*------------------------------------------------*/
+.pagination{
+
+  .page-link{
+    color: rgb(112, 170, 251);
+    margin: 10px;
+    border-color: rgb(112, 170, 251);
+    &:last-child{
+      border-radius: unset;
+    }
+  }
+
+  .page-item.active{
+
+    .page-link{
+      background-color: rgb(112, 170, 251);
+      border-color: rgb(112, 170, 251);
+    }
+
+  }
+}

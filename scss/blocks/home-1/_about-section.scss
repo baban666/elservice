@@ -1,0 +1,60 @@
+/*------------------------------------------------*/
+/*	ABOUT SECTION
+/*------------------------------------------------*/
+
+
+.about-image{
+  position: relative;
+  &::after {
+    content: "";
+    background-color: rgb(92, 174, 234);
+    position: absolute;
+    outline: 2px solid rgba(233,244,252,0.8);
+    outline-offset: -15px;
+    left: -5%;
+    top: -10%;
+    width: 75px;
+    height: 75px;
+    z-index: -1;
+
+  }
+  &::before {
+    content: "";
+    background-color: rgb(92, 174, 234);
+    position: absolute;
+    left: -2%;
+    top: 11%;
+    width: 40px;
+    height: 40px;
+    z-index: -1;
+  }
+
+  .elementor-image{
+
+    position: relative;
+
+    img{
+      clip-path: polygon(0% 0%, 90% 0%, 100% 15%, 100% 100%, 0% 100%, 0% 100%, 0% 80%, 0% 20%);
+
+    }
+
+  }
+
+}
+
+.about-container{
+  position: relative;
+
+  &::after {
+    content: "";
+    background-color: rgb(92, 174, 234);
+    opacity: 0.2;
+    position: absolute;
+    left: -35%;
+    top: 0;
+    width: 766px;
+    height: 44px;
+    z-index: -1;
+
+  }
+}

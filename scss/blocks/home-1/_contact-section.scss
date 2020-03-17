@@ -1,0 +1,66 @@
+/*------------------------------------------------*/
+/*	CONTACT SECRION
+/*------------------------------------------------*/
+
+.contact-section{
+
+  .contact-form {
+    padding: 20px;
+    margin: 70px auto;
+  }
+
+  .wpcf7-form-control-wrap .wpcf7-form-control {
+    margin-bottom: 30px;
+    width: 100%;
+
+    &::placeholder{
+      font-size: 12px;
+      color: rgba(255, 255, 255, 0.8);
+      line-height: 1.167;
+    }
+  }
+  .wpcf7-form-control-wrap .wpcf7-form-control {
+    min-height: 38px;
+    border-radius: unset;
+  }
+  .wpcf7-form-control-wrap .wpcf7-form-control {
+    border: none;
+    background: #62a2fc;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1;
+  }
+  .wpcf7-form-control-wrap .wpcf7-form-control:focus {
+    border: none;
+    box-shadow: 0 0 8px #f3f7fe;
+  }
+  .wpcf7-submit {
+    width: 100%;
+    min-width: 250px;
+    border: 1px solid #f3f7fe;
+    background: #448ef6;
+    margin-top: 20px;
+    font-size: 12.751px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 2;
+    &:hover{
+      background: #fff;
+      color: #448ef6;
+    }
+  }
+  .wpcf7-form-control .btn-contact i {
+    margin-right: 5px;
+  }
+  .wpcf7-form-control label {
+    opacity: 0.9;
+  }
+  .wpcf7-form-control textarea {
+    resize: vertical;
+  }
+
+  .wpcf7-select select{
+   display: none;
+  }
+}

@@ -1,0 +1,24 @@
+/*------------------------------------------------*/
+/*	FAQ
+/*------------------------------------------------*/
+
+.faq-section{
+
+  .elementor-tab-title, .elementor-accordion-icon {
+    color: #194768;
+    &:hover{
+      color: #fff;
+      background: #194768
+    }
+  }
+
+  .elementor-tab-title.elementor-active{
+    color: #fff;
+    background: #194768
+  }
+
+}
+
+
+
+
